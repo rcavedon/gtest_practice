@@ -17,5 +17,5 @@ add_test(IsPrimeTest IsPrimeTest)
 
 #GMock
 # https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md non-virtual class
-add_executable(googlemock_practice gtest_practice.cc factory_unittest.cc factory.cc factory.h)
+add_executable(googlemock_practice gmock_practice.cc mock-turtle.h)
 target_link_libraries(googletest_practice gtest gtest_main)
